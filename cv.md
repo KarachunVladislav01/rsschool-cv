@@ -5,32 +5,32 @@
 4. Skills:
    Programming languages:
 
-- JavaScript
-- Swift
-- C++
-- HTML
-- CSS
+   - JavaScript
+   - Swift
+   - C++
+   - HTML
+   - CSS
 
-Databases:
+   Databases:
 
-- MongoDB
-- SQL
-- Firebase
+   - MongoDB
+   - SQL
+   - Firebase
 
-Frameworks:
+   Frameworks:
 
-- Angular
-- Express
+   - Angular
+   - Express
 
 5. Code examples.
 6. Experience: best of my experience i have on that github account.
 7. Education:
 
-- University BSUIR
-  System programmer-logistic (graduated)
-- Curses:
-  - MEAN stack
-  - IOS Development Bootcamp
-  - CS50 basics of programming
+   - University BSUIR
+     System programmer-logistic (graduated)
+   - Curses:
+     - MEAN stack
+     - IOS Development Bootcamp
+     - CS50 basics of programming
 
 8. English: finished english Streamline
