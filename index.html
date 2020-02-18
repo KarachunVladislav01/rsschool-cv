@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>My CV</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main-info">
+        <article class="representation">
+          <h1>Vladislav Karachun<br />(intern)</h1>
+          <address>
+            <p><strong>Mail:</strong> karachunvladislav@gmail.com</p>
+            <p><strong>Phone:</strong> +375(11)111-11-11</p>
+            <p><strong>Address:</strong> Minsk, Belarus</p>
+          </address>
+
+          <img src="./images/photo.png" alt="portrait" />
+        </article>
+        <article class="summary">
+          <p>
+            I am interested in many things related to IT sphere. I like to see
+            the direct result of my work, that’s why in particular I am
+            interested in studying web and mobile development.
+          </p>
+          <p>
+            I am open to learning new full stack technologies. I’m looking for a
+            company where I will start my career as web developer and continue
+            my professional path.
+          </p>
+        </article>
+      </section>
+      <section class="additional-info">
+        <article class="skills">
+          <h2>Skills</h2>
+          <ul class="skills-first-list">
+            <li>Programming languages:</li>
+            <ul class="skills-sublist">
+              <li>JavaScript</li>
+              <li>Swift</li>
+              <li>C++</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <li>Databases:</li>
+            <ul class="skills-sublist">
+              <li>MongoDB</li>
+              <li>SQL</li>
+              <li>Firebase</li>
+            </ul>
+            <li>Frameworks:</li>
+            <ul class="skills-sublist">
+              <li>Angular</li>
+              <li>Express</li>
+            </ul>
+          </ul>
+        </article>
+        <article class="code-examples">
+          <h2>Code Example</h2>
+          <pre>
+            <code>
+    const findSumEqlK = (nums, k) => {
+        const numbersList = {};
+        let sumEqlK = false;
+        for (let i = 0; i < nums.length; i++) {
+            const number = nums[i];
+            numbersList[number] = number in numbersList ? numbersList[number] + 1 : 1;
+        }
+                  
+        for (number in numbersList) {
+            if (
+                k - number in numbersList &&
+                (number < k - number || (number == k - number && numbersList[number] > 1))
+            ) {
+                sumEqlK = true;
+                break;
+            }
+        }
+        return sumEqlK;
+    };
+            </code>
+          </pre>
+        </article>
+        <article class="experience">
+          <h2>Experience</h2>
+          <span>Best of my experience i have on that github account.</span>
+        </article>
+        <article class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              University BSUIR<br />
+              System programmer-logistic (graduated)
+            </li>
+            <li>Curses:</li>
+            <ul>
+              <li>MEAN stack</li>
+              <li>IOS Development Bootcamp</li>
+              <li>CS50 basics of programming</li>
+            </ul>
+          </ul>
+        </article>
+        <article class="english">
+          <h2>English</h2>
+          <span>Finished english Streamline(A2).</span>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
