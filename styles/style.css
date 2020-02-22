@@ -1,0 +1,75 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.main-info {
+  padding: 1rem;
+  border-top: 1rem solid #afafaf;
+  border-left: 1rem solid #afafaf;
+}
+.representation {
+  display: grid;
+  grid-template: 7rem 1fr/1fr 1fr;
+}
+
+.representation h1 {
+  grid-area: 1/1/2/2;
+  font-size: 2rem;
+  margin: 0rem;
+}
+.representation img {
+  grid-area: 1/2/3/3;
+  align-self: center;
+  justify-self: flex-end;
+  margin-right: 1rem;
+}
+
+.representation address {
+  grid-area: 2/1/3/2;
+  margin-left: 2rem;
+}
+
+.summary p {
+  margin: 0rem;
+}
+
+.additional-info {
+  padding: 1rem;
+  border-left: 1rem solid #afafaf;
+}
+
+.additional-info article span {
+  padding: 1rem;
+}
+
+.additional-info h2 {
+  padding-left: 7rem;
+  margin-left: -1rem;
+  background-color: #e3f8f6;
+}
+
+.skills h2 {
+  margin-top: -1rem;
+}
+
+.skills-first-list {
+  list-style-type: none;
+}
+
+.skills-sublist {
+  list-style-type: initial;
+}
+
+code {
+  display: block;
+  border-left: 0.2rem solid #e89b7a;
+  padding: 12px 8px;
+  background-color: #eff0f1;
+  color: #393318;
+  font-size: 1rem;
+}
